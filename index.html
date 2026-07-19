@@ -4,7 +4,7 @@
   
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>Cedrain | Online Portfolio</title>
+  <title>SFO1 Reynald S Mendrico Jr | Portfolio</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1375,6 +1375,31 @@
       }
     }
 
+
+    .seal.logo-seal {
+      overflow: hidden;
+      padding: 4px;
+      background:
+        radial-gradient(circle, rgba(255,255,255,.18), rgba(245,184,75,.08)),
+        linear-gradient(135deg, rgba(46,167,255,.18), rgba(255,43,43,.10));
+      border: 1px solid rgba(245,184,75,.65);
+    }
+
+    .seal.logo-seal img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      display: block;
+      border-radius: 50%;
+      filter: drop-shadow(0 0 8px rgba(245,184,75,.18));
+    }
+
+    @media (max-width: 760px) {
+      .seal.logo-seal {
+        padding: 3px;
+      }
+    }
+
     @media (max-width: 1100px) {
       .projects-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -1547,7 +1572,7 @@
         <a href="#projects">Projects</a>
         <a href="#experience">Experience</a>
         <a href="#contact">Contact</a>
-      </div>      
+      </div>
       <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">☰</button>
     </nav>
   </header>
@@ -1556,9 +1581,9 @@
     <div class="hero-panel glass">
       <div class="hero-copy">
         <div class="kicker">Welcome to my portfolio</div>
-        <h1><span class="rank">CEDRAIN</span></h1>
+        <h1><span class="rank">SFO1</span> Reynald S <span class="surname">Mendrico Jr</span></h1>
 
-        <div class="codename-chip">Realname: <b>Reynald S Mendrico Jr</b></div>
+        <div class="codename-chip">Codename: <b>Cedrain</b></div>
 
         <div class="role-strip">
           <span>Fire Officer</span>
@@ -1593,12 +1618,12 @@
         <div class="profile-card">
           <img src="profile.jpg" alt="SFO1 Reynald S Mendrico Jr">
           <div class="id-badge">
-            <div class="seal">BFP</div>
+            <div class="seal logo-seal"><img src="caraga-logo.png" alt="BFP Caraga Region logo"></div>
             <div>
               <strong>SFO1 Reynald S Mendrico Jr</strong>
               <span>FJLC 2025-36 “DAHIGE” · CARAGA</span>
             </div>
-            <div class="seal">RM</div>
+            <div class="seal logo-seal"><img src="opfm-ads-logo.png" alt="OPFM Agusan del Sur logo"></div>
           </div>
         </div>
       </div>
@@ -1630,7 +1655,7 @@
         </p>
 
         <div class="mini-stats">
-          <div class="mini-stat"><b>18</b><span>Years of Service</span></div>
+          <div class="mini-stat"><b>10+</b><span>Years of Service</span></div>
           <div class="mini-stat"><b>14</b><span>Fire Stations Covered</span></div>
           <div class="mini-stat"><b>100+</b><span>Operations</span></div>
           <div class="mini-stat"><b>24/7</b><span>Commitment</span></div>
@@ -1685,13 +1710,12 @@
           </div>
           <h3>Deployment Monitoring System</h3>
           <p>
-            A web-based system for monitoring personnel deployment, incident response,
-            and real-time operational status. First used during the Palarong Pambansa 2026 BFP Caraga Command Center.
+            A web-based system for monitoring personnel deployment, events, incident response,
+            and real-time operational status.
           </p>
           <div class="tags">
             <span class="tag">Google Apps Script</span>
             <span class="tag">Dashboard</span>
-            <span class="tag">Resource Tracker</span>
             <span class="tag">Operations</span>
           </div>
         </div>
@@ -1703,19 +1727,15 @@
             <div class="project-icon">AI</div>
             <span class="status">Building</span>
           </div>
-          <h3>BFP Fire Arson Investigation AI Assistant</h3>
+          <h3>BFP Fire Investigation Assistant</h3>
           <p>
-            A specialized AI-powered web assistant for BFP Fire Arson Investigation report review. 
-            It helps investigators scan uploaded SIR, PIR, FIR, and FIR-MDFI documents, identify missing details, 
-            check grammar and formatting, validate SOP/MC compliance, analyze fire scene photos, and provide report-quality ratings before submission. 
-            The project is built as a specialized AI copilot for BFP fire investigation workflows 
-            using a custom knowledge base and AI-powered report review system.
+            An AI-assisted platform that helps investigators draft, review, organize,
+            and improve fire investigation reports.
           </p>
           <div class="tags">
             <span class="tag">AI</span>
             <span class="tag">Investigation</span>
             <span class="tag">Reports</span>
-            <span class="tag">RAG System</span>
           </div>
         </div>
       </article>
@@ -1830,8 +1850,8 @@
   </section>
 
   <footer class="footer shell">
-    <span>© 2026 Reynald S Mendrico Jr. All Rights Reserved.</span>
-    <span>Codename Cedrain · Built with passion for service.</span>
+    <span>© 2026 SFO1 Reynald S Mendrico Jr. All Rights Reserved.</span>
+    <span>Codename Cedrain · Built with passion for service ❤</span>
   </footer>
 
   <script>
